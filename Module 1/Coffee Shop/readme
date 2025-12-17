@@ -1,0 +1,12 @@
+This time I used both the:
+- @Qualifier Annotation
+- @ConditionalOnProperty Annotation
+
+Made a Coffee Shop project where there's  two options for coffee (Latte, Espresso),
+Used @ConditionalOnProperty Annotation to choose between the two and set the value 
+in the application.property file.
+
+For Espresso there's choice between coffee beans (used @Qualifier)
+
+For Latte there are choices in coffee beans, type of milk, type of syrup
+Again, used @Qualifier for this.
